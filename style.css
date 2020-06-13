@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: lighter;
+  color: rgb(27, 27, 27);
+  text-align: center;
+  margin: 0;
+}
+
+#main {
+  margin: 40px 10px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 4px;
+  padding: 20px;
+  display: block;
+}
+
+picture {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+p {
+  display: block;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: disc;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+caption {
+  display: block;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  display: block;
+  font-weight: bold;
+}
+
+blockquote {
+  display: block;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+cite {
+  font-style: italic;
+}
+
+#img-div {
+  background-color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+#image {
+  size: 100%;
+  padding: 15px 0 15px 0;
+}
+
+#img-caption {
+  margin: 35px 0 5px 0;
+}
+
+#tribute-info {
+  padding: 40px;
+  align-items: center;
+}
+
+#timeline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+#tribute-link {
+  cursor: pointer;
+}
